@@ -9,6 +9,14 @@
 	color: #CC00AA;
 }
 
+p {
+    font-variant: small-caps;
+}
+
+.project p {
+    font-variant:small-caps;
+}
+
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
@@ -30,5 +38,17 @@ body {
      bottom: 0;
      right: 0;
      position: absolute;
-     z-index: -1;	
+     z-index: -1;
 }
+     
+.project {
+    margin-left: 20px;
+    background-color:#eeeeee;
+    padding: 20px;
+    width: 525px;
+}
+
+#project1 {
+    font-variant: small-caps;
+}
+
